@@ -299,6 +299,7 @@ static CGFloat CRCenterXForActivityIndicatorWithAlignment(CRToastAccessoryViewAl
             [self insertSubview:_backgroundView atIndex:0];
         }
     }
+    self.accessibilityLabel = toast.text;
 }
 
 @end
